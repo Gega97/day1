@@ -1,0 +1,14 @@
+service : {
+  addCount: (nat) -> (nat);
+  clearCount: () -> ();
+  dayInSeconds: (nat) -> (nat);
+  deleteFromArray: (vec nat, nat) -> (vec nat);
+  division: (nat, nat) -> (bool);
+  findCount: () -> (nat);
+  isEven: (nat) -> (bool);
+  max: (vec nat) -> (nat);
+  sort: (vec nat) -> (vec nat);
+  squareRoot: (nat) -> (nat);
+  sum: (nat, nat) -> (nat);
+  sumArray: (vec nat) -> (nat);
+}
